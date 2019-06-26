@@ -1,1 +1,116 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-background {
+  background-image: url("../img/header-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 960px;
+}
+
+.header {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo {
+  width: 100%;
+}
+
+.header-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu-list li a {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.header-contacts a {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.header-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-intro h1 {
+  margin: 0;
+  padding: 0;
+  width: 965px;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 235px;
+}
+
+.header-intro p {
+  margin: 0;
+  padding: 0;
+  width: 865px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 96px;
+}
+
+.header-intro a {
+  width: 252px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #f39d77;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-intro span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 22px;
+}
+/*# sourceMappingURL=styles.css.map */
