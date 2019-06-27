@@ -343,6 +343,22 @@ body {
   text-align: center;
 }
 
+.calculate-the-cost-form-wrapper form .contacts-wrapper input::-webkit-input-placeholder {
+  color: #a0a0a0;
+}
+
+.calculate-the-cost-form-wrapper form .contacts-wrapper input:-ms-input-placeholder {
+  color: #a0a0a0;
+}
+
+.calculate-the-cost-form-wrapper form .contacts-wrapper input::-ms-input-placeholder {
+  color: #a0a0a0;
+}
+
+.calculate-the-cost-form-wrapper form .contacts-wrapper input::placeholder {
+  color: #a0a0a0;
+}
+
 .calculate-the-cost-form-wrapper form button {
   color: #ffffff;
   font-size: 14px;
@@ -797,12 +813,29 @@ body {
   text-align: center;
 }
 
+.contacts .contacts-wrapper input::-webkit-input-placeholder {
+  color: #a0a0a0;
+}
+
+.contacts .contacts-wrapper input:-ms-input-placeholder {
+  color: #a0a0a0;
+}
+
+.contacts .contacts-wrapper input::-ms-input-placeholder {
+  color: #a0a0a0;
+}
+
+.contacts .contacts-wrapper input::placeholder {
+  color: #a0a0a0;
+}
+
 .contacts textarea {
   border-radius: 4px;
   border: 1px solid #d2d2d2;
   background-color: #ffffff;
   padding: 16px 34px;
   margin-bottom: 68px;
+  width: 100%;
 }
 
 .contacts button {

@@ -323,6 +323,10 @@ body {
         background-color: #ffffff;
         padding: 10px;
         text-align: center;
+
+        &::placeholder {
+          color: #a0a0a0;
+        }
       }
     }
 
@@ -756,6 +760,10 @@ body {
       background-color: #ffffff;
       padding: 10px;
       text-align: center;
+
+      &::placeholder {
+        color: #a0a0a0;
+      }
     }
   }
 
@@ -765,6 +773,7 @@ body {
     background-color: #ffffff;
     padding: 16px 34px;
     margin-bottom: 68px;
+    width: 100%;
   }
 
   button {
