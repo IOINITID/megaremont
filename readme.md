@@ -10,6 +10,10 @@
 
 Страница цены: 🦊 https://ioinitid.github.io/megaremont/prices.html
 
+Страница о нас: 📝 https://ioinitid.github.io/megaremont/about.html
+
+Страница контакты : 🐧 https://ioinitid.github.io/megaremont/about.html
+
 ------------
 
 Сделано с ❤️ в [WEB-ELITIT.RU](https://www.web-elitit.ru "Web-elitit.ru")
