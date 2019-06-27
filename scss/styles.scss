@@ -235,3 +235,32 @@ body {
     }
   }
 }
+
+.how-we-are-working {
+  padding: 86px 0 90px 0;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 93px;
+  }
+
+  .how-we-are-working-item {
+    text-align: center;
+
+    img {
+      padding-bottom: 26px;
+    }
+
+    p {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
