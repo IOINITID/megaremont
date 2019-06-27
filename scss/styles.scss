@@ -656,3 +656,57 @@ body {
     }
   }
 }
+
+.about {
+  padding-top: 88px;
+  padding-bottom: 77px;
+
+  h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 69px;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .our-team {
+    padding-top: 72px;
+
+    h2 {
+      color: #000000;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .our-team-item {
+      margin-bottom: 30px;
+      text-align: center;
+
+      h3 {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        margin: 0;
+        padding-top: 27px;
+      }
+
+      span {
+        color: #000000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0;
+      }
+    }
+  }
+}

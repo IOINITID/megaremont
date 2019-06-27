@@ -682,4 +682,58 @@ body {
 .prices table td:nth-child(3), .prices table td:nth-child(4) {
   font-weight: 700;
 }
+
+.about {
+  padding-top: 88px;
+  padding-bottom: 77px;
+}
+
+.about h2 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 69px;
+}
+
+.about p {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about .our-team {
+  padding-top: 72px;
+}
+
+.about .our-team h2 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about .our-team .our-team-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about .our-team .our-team-item h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  padding-top: 27px;
+}
+
+.about .our-team .our-team-item span {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
 /*# sourceMappingURL=styles.css.map */
