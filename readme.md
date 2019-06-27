@@ -8,6 +8,8 @@
 
 Страница работа: 🌳 https://ioinitid.github.io/megaremont/work.html
 
+Страница цены: 🦊 https://ioinitid.github.io/megaremont/prices.html
+
 ------------
 
 Сделано с ❤️ в [WEB-ELITIT.RU](https://www.web-elitit.ru "Web-elitit.ru")
