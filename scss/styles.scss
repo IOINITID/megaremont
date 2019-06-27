@@ -437,3 +437,56 @@ body {
     }
   }
 }
+
+.footer {
+
+  .footer-item {
+    padding-top: 76px;
+    padding-bottom: 74px;
+
+    h2 {
+      width: 935px;
+      color: #000000;
+      font-size: 48px;
+      font-weight: 500;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+      padding-bottom: 82px;
+    }
+
+    a {
+      height: 10px;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      width: 252px;
+      height: 50px;
+      border-radius: 4px;
+      background-color: #f49e9c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+}
+
+.devider {
+  width: 100%;
+  height: 1px;
+  background-color: #d2d2d2;
+  display: block;
+}
+
+.copyright {
+  p {
+    color: #a0a0a0;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    padding: 67px 0 68px 0;
+  }
+}
