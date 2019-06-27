@@ -12,7 +12,7 @@
 
 Страница о нас: 📝 https://ioinitid.github.io/megaremont/about.html
 
-Страница контакты : 🐧 https://ioinitid.github.io/megaremont/about.html
+Страница контакты : 🐧 https://ioinitid.github.io/megaremont/contacts.html
 
 ------------
 
