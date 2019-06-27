@@ -1,3 +1,12 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -323,6 +332,7 @@ body {
 }
 
 .calculate-the-cost-form-wrapper form .contacts-wrapper input {
+  width: 222px;
   color: #a0a0a0;
   font-size: 16px;
   font-weight: 400;
@@ -344,5 +354,120 @@ body {
   border: none;
   display: block;
   margin: 0 auto;
+}
+
+.about-us {
+  background-color: #f3f1ed;
+  padding-top: 115px;
+  padding-bottom: 100px;
+}
+
+.about-us-text {
+  width: 635px;
+}
+
+.text-items {
+  background-color: #ffffff;
+  padding: 48px 45px 66px 52px;
+  height: 794px;
+}
+
+.text-items h2 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 39px;
+}
+
+.text-items h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  padding: 20px 0;
+}
+
+.text-items p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.text-items a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  display: block;
+  padding-top: 33px;
+}
+
+.about-us-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-us-contacts img {
+  width: 100%;
+}
+
+.about-us-contacts iframe {
+  width: 100%;
+}
+
+.about-us-contacts address {
+  width: 100%;
+  height: 240px;
+  background-color: #f39d77;
+  margin: 0;
+  padding: 66px 53px 68px 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-us-contacts address .contacts-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us-contacts address .contacts-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 18px;
+}
+
+.about-us-contacts address .contacts-item p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */
