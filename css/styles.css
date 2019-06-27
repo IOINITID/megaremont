@@ -621,4 +621,65 @@ body {
 .work p:nth-of-type(2) {
   padding-bottom: 66px;
 }
+
+.prices {
+  padding-top: 88px;
+  padding-bottom: 186px;
+}
+
+.prices h2 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 82px;
+  margin: 0;
+}
+
+.prices table {
+  width: 100%;
+}
+
+.prices table tr:nth-child(2n - 1) td:nth-child(2n - 1) {
+  background-color: #f2f2f2;
+}
+
+.prices table tr:nth-child(2n - 1) td:nth-child(2n) {
+  background-color: #e2e2e2;
+}
+
+.prices table th {
+  padding: 27px 18px;
+}
+
+.prices table th:nth-child(2n - 1) {
+  background-color: #e2e2e2;
+}
+
+.prices table th:nth-child(2n) {
+  background-color: #d2d2d2;
+}
+
+.prices table th:not(:first-child) {
+  text-align: center;
+}
+
+.prices table td {
+  padding: 27px 18px;
+}
+
+.prices table td:nth-child(2n - 1) {
+  background-color: #ffffff;
+}
+
+.prices table td:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+.prices table td:not(:first-child) {
+  text-align: center;
+}
+
+.prices table td:nth-child(3), .prices table td:nth-child(4) {
+  font-weight: 700;
+}
 /*# sourceMappingURL=styles.css.map */
