@@ -4,6 +4,10 @@
 
 Главная страница сайта: 🖥️ https://ioinitid.github.io/megaremont/index.html
 
+Страница наши работы: 🐱 https://ioinitid.github.io/megaremont/works.html
+
+Страница работа: 🌳 https://ioinitid.github.io/megaremont/work.html
+
 ------------
 
 Сделано с ❤️ в [WEB-ELITIT.RU](https://www.web-elitit.ru "Web-elitit.ru")
