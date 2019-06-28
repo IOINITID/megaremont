@@ -789,3 +789,18 @@ body {
     margin: 0 auto;
   }
 }
+
+// Extra large devices (large desktops, 1366px and up)
+@media (min-width: 1366px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
