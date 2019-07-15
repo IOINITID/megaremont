@@ -9,126 +9,166 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/slideout.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <!-- Шапка сайта -->
-  <div class="container-fluid header-works">
-
-    <!-- Логотип, меню, телефон -->
-    <div class="container">
-      <div class="row header">
-        <div class="col-xl-2">
-          <a href="index.html">
-            <img class="header-logo" src="img/header-logo.png" alt="Логотип Мегаремонт">
-          </a>
-        </div>
-        <div class="col-xl-6 offset-1">
-          <nav>
-            <ul class="header-menu-list">
-              <li><a href="works.html">Наши работы </a></li>
-              <li><a href="#">Дизайн</a></li>
-              <li><a href="prices.html">Цены</a></li>
-              <li><a href="about.html">О нас</a></li>
-              <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-xl-2 offset-1 header-contacts">
-          <a href="tel:+79614461989">8 961 446 19 89</a>
-        </div>
-      </div>
-    </div>
-
+  <div id="menu" class="mobile-menu-background">
+    <nav>
+      <ul class="header-mobile-menu-list">
+        <li><a href="works.html">Наши работы </a></li>
+        <li><a href="#">Дизайн</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
   </div>
 
-  <!-- Раздел контакты -->
-  <div class="about-us contacts">
-    <div class="container">
+  <div id="panel">
 
-      <h2 class="contacts-title">Контакты</h2>
+    <!-- Шапка сайта -->
+    <div class="container-fluid header-works">
 
-      <div class="row">
+      <!-- Логотип, меню, телефон -->
+      <div class="container">
 
-        <div class="col-xl-6 about-us-text">
+        <div class="row header">
+          <div class="col-md-2 col-lg-2 col-xl-2">
+            <a href="index.html">
+              <img class="header-logo" src="img/header-logo.png" alt="Логотип Мегаремонт">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-6 offset-1">
+            <nav>
+              <ul class="header-menu-list">
+                <li><a href="works.html">Наши работы </a></li>
+                <li><a href="#">Дизайн</a></li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 offset-1 header-contacts">
+            <a href="tel:+79614461989">8 961 446 19 89</a>
+          </div>
+        </div>
 
-          <div class="text-items">
+        <div class="header-mobile">
+          <div class="row">
+            <div class="col-4 col-sm-4 header-menu-button">
+              <a href="#" class="toggle-button">
+                <img src="img/menu-button.svg" alt="Иконка меню">
+              </a>
+            </div>
+            <div class="col-4 col-sm-4 header-mobile-logo">
+              <a href="#">
+                <img src="img/header-logo.png" alt="Логотип Мегаремонт">
+              </a>
+            </div>
+            <div class="col-4 col-sm-4 header-mobile-telephone-icon">
+              <a href="tel:+79614461989">
+                <img src="img/telephone.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
 
-            <h3>Остались вопросы?</h3>
+      </div>
 
-            <form action="https://echo.htmlacademy.ru" method="POST">
+    </div>
 
-              <div class="contacts-wrapper">
+    <!-- Раздел контакты -->
+    <div class="about-us contacts">
+      <div class="container">
 
-                <label for="">
-                  <input type="text" placeholder="Введите ваше имя" name="name" id="">
-                </label>
+        <h2 class="contacts-title">Контакты</h2>
 
-                <label for="">
-                  <input type="email" placeholder="E-mail адрес" name="email" id="">
-                </label>
+        <div class="row">
 
+          <div class="col-md-12 col-lg-12 col-xl-6 about-us-text">
+
+            <div class="text-items">
+
+              <h3>Остались вопросы?</h3>
+
+              <form action="https://echo.htmlacademy.ru" method="POST">
+
+                <div class="contacts-wrapper">
+
+                  <label for="">
+                    <input type="text" placeholder="Введите ваше имя" name="name" id="">
+                  </label>
+
+                  <label for="">
+                    <input type="email" placeholder="E-mail адрес" name="email" id="">
+                  </label>
+
+                </div>
+
+                <textarea name="text" id="" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+
+                <button type="submit">ОТПРАВИТЬ</button>
+
+              </form>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-12 col-lg-12 col-xl-6 about-us-contacts">
+
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A7e77f28e73a11d5f9e036e28b85890a868ea8d3332734e925cd18b9a7f0cf9b1&amp;source=constructor"
+              width="635" height="524" frameborder="0">
+              <img src="img/map-image.png" alt="г. Ставрополь, ул. Доваторцев 61">
+            </iframe>
+
+            <address>
+
+              <div class="contacts-item">
+                <img src="img/map-icon.png" alt="Иконка карты">
+                <p>г. Ставрополь, ул. Доваторцев 61</p>
               </div>
 
-              <textarea name="text" id="" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+              <div class="contacts-item">
+                <img src="img/telephone-icon.png" alt="Иконка телефона">
+                <p>+7 (961) 446 19 89</p>
+              </div>
 
-              <button type="submit">ОТПРАВИТЬ</button>
-
-            </form>
+            </address>
 
           </div>
 
         </div>
 
-        <div class="col-xl-6 about-us-contacts">
-
-          <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3A7e77f28e73a11d5f9e036e28b85890a868ea8d3332734e925cd18b9a7f0cf9b1&amp;source=constructor"
-            width="635" height="524" frameborder="0">
-            <img src="img/map-image.png" alt="г. Ставрополь, ул. Доваторцев 61">
-          </iframe>
-
-          <address>
-
-            <div class="contacts-item">
-              <img src="img/map-icon.png" alt="Иконка карты">
-              <p>г. Ставрополь, ул. Доваторцев 61</p>
-            </div>
-
-            <div class="contacts-item">
-              <img src="img/telephone-icon.png" alt="Иконка телефона">
-              <p>+7 (961) 446 19 89</p>
-            </div>
-
-          </address>
-
-        </div>
-
       </div>
-
     </div>
-  </div>
 
-  <!-- Раздел подвала сайта -->
-  <div class="footer">
+    <!-- Раздел подвала сайта -->
+    <div class="footer">
 
-    <div class="container-fluid">
-      <div class="row">
-        <span class="devider"></span>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <p>Copyright © 2013-2019 Freepik Company S.L. All rights reserved.</p>
+      <div class="container-fluid">
+        <div class="row">
+          <span class="devider"></span>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <p>Copyright © 2013-2019 Freepik Company S.L. All rights reserved.</p>
+          </div>
         </div>
       </div>
+
     </div>
 
   </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideout.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 

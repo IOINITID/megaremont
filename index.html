@@ -9,292 +9,335 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/slideout.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <!-- Шапка сайта -->
-  <div class="container-fluid header-background">
-
-    <!-- Логотип, меню, телефон -->
-    <div class="container">
-      <div class="row header">
-        <div class="col-xl-2">
-          <a href="index.html">
-            <img class="header-logo" src="img/header-logo.png" alt="Логотип Мегаремонт">
-          </a>
-        </div>
-        <div class="col-xl-6 offset-1">
-          <nav>
-            <ul class="header-menu-list">
-              <li><a href="works.html">Наши работы </a></li>
-              <li><a href="#">Дизайн</a></li>
-              <li><a href="prices.html">Цены</a></li>
-              <li><a href="about.html">О нас</a></li>
-              <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-xl-2 offset-1 header-contacts">
-          <a href="tel:+79614461989">8 961 446 19 89</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Заголовок, прочий текст и кнопка заказа -->
-    <div class="container">
-      <div class="header-intro">
-        <h1>Отделка и ремонт квартир, домов в Ставрополе под ключ</h1>
-        <p>От замера до чистовой отделки. Фиксированные сроки и стоимость.<br>Оплата после приемки выполненного этапа.
-        </p>
-        <a href="#">ЗАКАЗАТЬ ЗАМЕР + СМЕТА</a>
-        <span>БЕСПЛАТНО!</span>
-      </div>
-    </div>
-
+  <div id="menu" class="mobile-menu-background">
+    <nav>
+      <ul class="header-mobile-menu-list">
+        <li><a href="works.html">Наши работы </a></li>
+        <li><a href="#">Дизайн</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
   </div>
 
-  <!-- Основной контент главной страницы -->
-  <div class="main">
+  <div id="panel">
 
-    <div class="container">
-      <div class="row features">
-        <div class="col-xl-3 features-item">
-          <img src="img/contract-image.png" alt="Иконка договора">
-          <h2>Работаем только по договору</h2>
-          <p>Мы работаем только по договору, что обеспечивает спокойствие и уверенность в работе.</p>
-        </div>
-        <div class="col-xl-3 features-item">
-          <img src="img/consultation-image.png" alt="Иконка консультации">
-          <h2>Бесплатная консультация</h2>
-          <p>Вы совершенно БЕСПЛАТНО можете получить консультацию профессионалов относительно вашего ремонта.</p>
-        </div>
-        <div class="col-xl-3 features-item">
-          <img src="img/master-image.png" alt="Иконка мастера">
-          <h2>Только лучшие мастера</h2>
-          <p>У нас работают мастера с опытом работы от 5 лет. Наши специалисты проходят обучение.</p>
-        </div>
-        <div class="col-xl-3 features-item">
-          <img src="img/material-image.png" alt="Иконка материалов">
-          <h2>Поможем выбрать материалы</h2>
-          <p>Мы поможем сориентироваться в огромном мире стройматериалов и выбрать из них только соответствующие вашим
-            требованиям.</p>
-        </div>
-      </div>
-    </div>
+    <!-- Шапка сайта -->
+    <div class="container-fluid header-background">
 
-    <div class="container">
-
-      <div class="row no-gutters apartment">
-
-        <div class="col-xl-6 apartment-description">
-          <h2>3-к квартира 76 м2</h2>
-          <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной». Ремонтируемая
-            комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой «хрущевке».
-            Единственное окно из комнаты выходит на северную сторону и дневной света в течении дня не хватает для
-            полноценного освещения. Для решения задачи стены были окрашены в белый цвет, также мы использовали светлую
-            мебель фирмы IKEA, скомбинированную с зеркалами. На пол монтирован плинтус фирмы ultrawood, частично стены
-            оклеены весёлыми обоями шведской фирмы ECO (серия «Happy»), для придания комнате летнего настроения.</p>
-          <p>Сроки: <b>85 дней</b></p>
-          <a href="#">ПОДРОБНЕЕ</a>
-        </div>
-
-        <div class="col-xl-6 apartment-image">
-          <img src="img/apartment-image-one.png" alt="Изображение квартиры">
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-xl-4 apartments">
-          <div class="apartment-image">
-            <img src="img/apartment-image-two.png" alt="Изображение квартиры">
-          </div>
-          <div class="apartment-description">
-            <h2>3-к квартира 76 м2</h2>
-            <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
-              Ремонтируемая
-              комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
-              «хрущевке».
-            </p>
-            <p>Сроки: <b>85 дней</b></p>
-          </div>
-        </div>
-
-        <div class="col-xl-4 apartments">
-          <div class="apartment-image">
-            <img src="img/apartment-image-three.png" alt="Изображение квартиры">
-          </div>
-          <div class="apartment-description">
-            <h2>3-к квартира 76 м2</h2>
-            <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
-              Ремонтируемая
-              комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
-              «хрущевке».
-            </p>
-            <p>Сроки: <b>85 дней</b></p>
-          </div>
-        </div>
-
-        <div class="col-xl-4 apartments">
-          <div class="apartment-image">
-            <img src="img/apartment-image-four.png" alt="Изображение квартиры">
-          </div>
-          <div class="apartment-description">
-            <h2>3-к квартира 76 м2</h2>
-            <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
-              Ремонтируемая
-              комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
-              «хрущевке».
-            </p>
-            <p>Сроки: <b>85 дней</b></p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- Раздел как мы работаем -->
-  <div class="how-we-are-working">
-    <div class="container">
-      <h2>Как мы работаем</h2>
-      <div class="row">
-        <div class="col-xl how-we-are-working-item">
-          <img src="img/how-we-are-working-image-one.png" alt="Иконка письма">
-          <p>Оформление заявки</p>
-        </div>
-        <div class="col-xl how-we-are-working-item">
-          <img src="img/how-we-are-working-image-two.png" alt="Иконка письма">
-          <p>Бесплатный выезд замерщика</p>
-        </div>
-        <div class="col-xl how-we-are-working-item">
-          <img src="img/how-we-are-working-image-three.png" alt="Иконка письма">
-          <p>Подписание договора</p>
-        </div>
-        <div class="col-xl how-we-are-working-item">
-          <img src="img/how-we-are-working-image-four.png" alt="Иконка письма">
-          <p>Проведение ремонтных работ</p>
-        </div>
-        <div class="col-xl how-we-are-working-item">
-          <img src="img/how-we-are-working-image-five.png" alt="Иконка письма">
-          <p>Отличный результат</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Раздел расчитать стоимость с формой отправки данных -->
-  <div class="calculate-the-cost">
-    <div class="container-fluid calculate-the-cost-background">
-      <div class="calculate-the-cost-form-wrapper">
-        <h3>Рассчитайте стоимость ремонта</h3>
-        <form action="https://echo.htmlacademy.ru" method="POST">
-
-          <div class="contacts-wrapper">
-
-            <label for="">
-              <input type="text" placeholder="Введите ваше имя" name="name" id="">
-            </label>
-
-            <label for="">
-              <input type="number" placeholder="+ 7 (___) ___-__-__" name="number" id="">
-            </label>
-
-          </div>
-
-          <button type="submit">ОТПРАВИТЬ</button>
-
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Раздел о нас -->
-  <div class="about-us">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-xl-6 about-us-text">
-
-          <div class="text-items">
-
-            <h2>О нас</h2>
-            <p>Доверие к нам строится на: сданных проектах, рекомендациях наших клиентов, технически грамотном подходе к
-              вопросам строительства, ремонта или отделки.</p>
-            <h3>ПОДХОД:</h3>
-            <p>Определение объемов работ и смета – основа прозрачности взаимоотношений. Стоимость складывается из
-              материалов и работ, а выгода наших предложений базируется на их оптовых закупках, плюс применение
-              современных технологий, что дает экономию времени и ресурсов.</p>
-            <h3>РЕШЕНИЯ:</h3>
-            <p>Важен первый этап – не упустить ни одной мелочи, рассчитать точно. Донести все до заказчика получив
-              обратную
-              связь. Четко выполнить обязательства по стоимости, срокам, качеству.</p>
-            <h3>ИТОГ:</h3>
-            <p>Ремонт под ключ, постройка, дизайн – это сэкономленное время, средства и нервы. Оптимальный поэтапный
-              план,
-              график платежей, постоянный контакт с заказчиком дают нужный результат.</p>
-            <a href="#">Читать далее →</a>
-
-          </div>
-
-        </div>
-
-        <div class="col-xl-6 about-us-contacts">
-
-          <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3A7e77f28e73a11d5f9e036e28b85890a868ea8d3332734e925cd18b9a7f0cf9b1&amp;source=constructor"
-            width="635" height="524" frameborder="0">
-            <img src="img/map-image.png" alt="г. Ставрополь, ул. Доваторцев 61">
-          </iframe>
-
-          <address>
-
-            <div class="contacts-item">
-              <img src="img/map-icon.png" alt="Иконка карты">
-              <p>г. Ставрополь, ул. Доваторцев 61</p>
-            </div>
-
-            <div class="contacts-item">
-              <img src="img/telephone-icon.png" alt="Иконка телефона">
-              <p>+7 (961) 446 19 89</p>
-            </div>
-
-          </address>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- Раздел подвала сайта -->
-  <div class="footer">
-
-    <div class="container footer-item">
-      <h2>Расчитать стоимость своего ремонта очень просто!</h2>
-      <a href="#">РАСЧИТАТЬ СТОИМОСТЬ</a>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <span class="devider"></span>
-      </div>
+      <!-- Логотип, меню, телефон -->
       <div class="container">
-        <div class="copyright">
-          <p>Copyright © 2013-2019 Freepik Company S.L. All rights reserved.</p>
+
+        <div class="row header">
+          <div class="col-md-2 col-lg-2 col-xl-2">
+            <a href="index.html">
+              <img class="header-logo" src="img/header-logo.png" alt="Логотип Мегаремонт">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-6 offset-1">
+            <nav>
+              <ul class="header-menu-list">
+                <li><a href="works.html">Наши работы </a></li>
+                <li><a href="#">Дизайн</a></li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class=" col-md-3 col-lg-2 col-xl-2 offset-1 header-contacts">
+            <a href="tel:+79614461989">8 961 446 19 89</a>
+          </div>
+        </div>
+
+        <div class="header-mobile">
+          <div class="row">
+            <div class="col-4 col-sm-4 header-menu-button">
+              <a href="#" class="toggle-button">
+                <img src="img/menu-button.svg" alt="Иконка меню">
+              </a>
+            </div>
+            <div class="col-4 col-sm-4 header-mobile-logo">
+              <a href="#">
+                <img src="img/header-logo.png" alt="Логотип Мегаремонт">
+              </a>
+            </div>
+            <div class="col-4 col-sm-4 header-mobile-telephone-icon">
+              <a href="tel:+79614461989">
+                <img src="img/telephone.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Заголовок, прочий текст и кнопка заказа -->
+      <div class="container">
+        <div class="header-intro">
+          <h1>Отделка и ремонт квартир, домов в Ставрополе под ключ</h1>
+          <p>От замера до чистовой отделки. Фиксированные сроки и стоимость.<br>Оплата после приемки выполненного этапа.
+          </p>
+          <a href="#">ЗАКАЗАТЬ ЗАМЕР + СМЕТА</a>
+          <span>БЕСПЛАТНО!</span>
         </div>
       </div>
+
+    </div>
+
+    <!-- Основной контент главной страницы -->
+    <div class="main">
+
+      <div class="container">
+        <div class="row features">
+          <div class="col-md-6 col-lg-6 col-xl-3 features-item">
+            <img src="img/contract-image.png" alt="Иконка договора">
+            <h2>Работаем только по договору</h2>
+            <p>Мы работаем только по договору, что обеспечивает спокойствие и уверенность в работе.</p>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 features-item">
+            <img src="img/consultation-image.png" alt="Иконка консультации">
+            <h2>Бесплатная консультация</h2>
+            <p>Вы совершенно БЕСПЛАТНО можете получить консультацию профессионалов относительно вашего ремонта.</p>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 features-item">
+            <img src="img/master-image.png" alt="Иконка мастера">
+            <h2>Только лучшие мастера</h2>
+            <p>У нас работают мастера с опытом работы от 5 лет. Наши специалисты проходят обучение.</p>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 features-item">
+            <img src="img/material-image.png" alt="Иконка материалов">
+            <h2>Поможем выбрать материалы</h2>
+            <p>Мы поможем сориентироваться в огромном мире стройматериалов и выбрать из них только соответствующие вашим
+              требованиям.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row no-gutters apartment">
+
+          <div class="col-md-6 col-lg-6 col-xl-6 apartment-description">
+            <h2>3-к квартира 76 м2</h2>
+            <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
+              Ремонтируемая
+              комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
+              «хрущевке».
+              Единственное окно из комнаты выходит на северную сторону и дневной света в течении дня не хватает для
+              полноценного освещения. Для решения задачи стены были окрашены в белый цвет, также мы использовали светлую
+              мебель фирмы IKEA, скомбинированную с зеркалами. На пол монтирован плинтус фирмы ultrawood, частично стены
+              оклеены весёлыми обоями шведской фирмы ECO (серия «Happy»), для придания комнате летнего настроения.</p>
+            <p>Сроки: <b>85 дней</b></p>
+            <a href="#">ПОДРОБНЕЕ</a>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-6 apartment-image">
+            <img src="img/apartment-image-one.png" alt="Изображение квартиры">
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-6 col-xl-4 apartments">
+            <div class="apartment-image">
+              <img src="img/apartment-image-two.png" alt="Изображение квартиры">
+            </div>
+            <div class="apartment-description">
+              <h2>3-к квартира 76 м2</h2>
+              <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
+                Ремонтируемая
+                комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
+                «хрущевке».
+              </p>
+              <p>Сроки: <b>85 дней</b></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-4 apartments">
+            <div class="apartment-image">
+              <img src="img/apartment-image-three.png" alt="Изображение квартиры">
+            </div>
+            <div class="apartment-description">
+              <h2>3-к квартира 76 м2</h2>
+              <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
+                Ремонтируемая
+                комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
+                «хрущевке».
+              </p>
+              <p>Сроки: <b>85 дней</b></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-4 apartments">
+            <div class="apartment-image">
+              <img src="img/apartment-image-four.png" alt="Изображение квартиры">
+            </div>
+            <div class="apartment-description">
+              <h2>3-к квартира 76 м2</h2>
+              <p>Цель данного проекта — сделать детскую комнату максимально светлой, просторной и «воздушной».
+                Ремонтируемая
+                комната действительно маленькая – всего 10 м2, высота потолка 2,5 м., т.к. эта комната в старой
+                «хрущевке».
+              </p>
+              <p>Сроки: <b>85 дней</b></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Раздел как мы работаем -->
+    <div class="how-we-are-working">
+      <div class="container">
+        <h2>Как мы работаем</h2>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl how-we-are-working-item">
+            <img src="img/how-we-are-working-image-one.png" alt="Иконка письма">
+            <p>Оформление заявки</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl how-we-are-working-item">
+            <img src="img/how-we-are-working-image-two.png" alt="Иконка письма">
+            <p>Бесплатный выезд замерщика</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl how-we-are-working-item">
+            <img src="img/how-we-are-working-image-three.png" alt="Иконка письма">
+            <p>Подписание договора</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl how-we-are-working-item">
+            <img src="img/how-we-are-working-image-four.png" alt="Иконка письма">
+            <p>Проведение ремонтных работ</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl how-we-are-working-item">
+            <img src="img/how-we-are-working-image-five.png" alt="Иконка письма">
+            <p>Отличный результат</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Раздел расчитать стоимость с формой отправки данных -->
+    <div class="calculate-the-cost">
+      <div class="container-fluid calculate-the-cost-background">
+        <div class="calculate-the-cost-form-wrapper">
+          <h3>Рассчитайте стоимость ремонта</h3>
+          <form action="https://echo.htmlacademy.ru" method="POST">
+
+            <div class="contacts-wrapper">
+
+              <label for="">
+                <input type="text" placeholder="Введите ваше имя" name="name" id="">
+              </label>
+
+              <label for="">
+                <input type="number" placeholder="+ 7 (___) ___-__-__" name="number" id="">
+              </label>
+
+            </div>
+
+            <button type="submit">ОТПРАВИТЬ</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Раздел о нас -->
+    <div class="about-us">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 col-lg-12 col-xl-6 about-us-text">
+
+            <div class="text-items">
+
+              <h2>О нас</h2>
+              <p>Доверие к нам строится на: сданных проектах, рекомендациях наших клиентов, технически грамотном подходе
+                к
+                вопросам строительства, ремонта или отделки.</p>
+              <h3>ПОДХОД:</h3>
+              <p>Определение объемов работ и смета – основа прозрачности взаимоотношений. Стоимость складывается из
+                материалов и работ, а выгода наших предложений базируется на их оптовых закупках, плюс применение
+                современных технологий, что дает экономию времени и ресурсов.</p>
+              <h3>РЕШЕНИЯ:</h3>
+              <p>Важен первый этап – не упустить ни одной мелочи, рассчитать точно. Донести все до заказчика получив
+                обратную
+                связь. Четко выполнить обязательства по стоимости, срокам, качеству.</p>
+              <h3>ИТОГ:</h3>
+              <p>Ремонт под ключ, постройка, дизайн – это сэкономленное время, средства и нервы. Оптимальный поэтапный
+                план,
+                график платежей, постоянный контакт с заказчиком дают нужный результат.</p>
+              <a href="#">Читать далее →</a>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-12 col-lg-12 col-xl-6 about-us-contacts">
+
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A7e77f28e73a11d5f9e036e28b85890a868ea8d3332734e925cd18b9a7f0cf9b1&amp;source=constructor"
+              width="635" height="524" frameborder="0">
+              <img src="img/map-image.png" alt="г. Ставрополь, ул. Доваторцев 61">
+            </iframe>
+
+            <address>
+
+              <div class="contacts-item">
+                <img src="img/map-icon.png" alt="Иконка карты">
+                <p>г. Ставрополь, ул. Доваторцев 61</p>
+              </div>
+
+              <div class="contacts-item">
+                <img src="img/telephone-icon.png" alt="Иконка телефона">
+                <p>+7 (961) 446 19 89</p>
+              </div>
+
+            </address>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Раздел подвала сайта -->
+    <div class="footer">
+
+      <div class="container footer-item">
+        <h2>Расчитать стоимость своего ремонта очень просто!</h2>
+        <a href="#">РАСЧИТАТЬ СТОИМОСТЬ</a>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <span class="devider"></span>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <p>Copyright © 2013-2019 Freepik Company S.L. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideout.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 
