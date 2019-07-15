@@ -1004,6 +1004,8 @@ body {
   }
   .header-mobile-logo a img {
     width: 100%;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   .header-mobile-telephone-icon a {
     display: -webkit-box;
