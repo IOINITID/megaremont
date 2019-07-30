@@ -793,6 +793,36 @@ body {
   display: none;
 }
 
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-wrapper label input {
+  border-radius: 5px;
+  border: 1px solid #cecece;
+  padding: 5px;
+}
+
+.form-element textarea {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-element button {
+  margin: 10px 0;
+  background: #f39d77;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+}
+
 @media (max-width: 1365.98px) {
   .header-intro {
     h1 {
